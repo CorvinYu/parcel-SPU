@@ -114,15 +114,11 @@ fun isSameDay(ts1: Long, ts2: Long): Boolean {
 fun formatPickupCode(code: String): String {
     return code.split(",").map { singleCode ->
         val trimmed = singleCode.trim()
-        if (trimmed.contains("-")) {
-            trimmed
+        val digitsOnly = trimmed.filter { it.isDigit() }
+        if (digitsOnly.length >= 8 && digitsOnly.length == trimmed.length) {
+            digitsOnly.chunked(4).joinToString(" ")
         } else {
-            val digitsOnly = trimmed.filter { it.isDigit() }
-            if (digitsOnly.length >= 8) {
-                digitsOnly.chunked(4).joinToString(" ")
-            } else {
-                digitsOnly
-            }
+            trimmed
         }
     }.joinToString(", ")
 }
