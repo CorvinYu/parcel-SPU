@@ -1,6 +1,9 @@
-# 📦 Parcel - 取件码
+# 📦 Parcel-SPU - 取件码（SPU修改版）
 
 ---
+本应用fork自 https://github.com/shareven/parcel 260602 v1.0.57.
+
+添加一些在 SPU 快递站使用中更加方便的小功能。
 
 这是一个免费、开源、无广告、不联网，追求简洁的app，不收集任何个人信息。
 
