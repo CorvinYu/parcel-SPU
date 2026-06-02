@@ -296,6 +296,18 @@ fun HomeScreen(
                             DropdownMenuItem(
                                 text = {
                                     Text(
+                                        "页面背景",
+                                        style = if (isSeniorMode) MaterialTheme.typography.headlineSmall else MaterialTheme.typography.bodyLarge
+                                    )
+                                },
+                                onClick = {
+                                    showMenu = false
+                                    navController.navigate("app_background")
+                                }
+                            )
+                            DropdownMenuItem(
+                                text = {
+                                    Text(
                                         "监听第三方app通知",
                                         style = if (isSeniorMode) MaterialTheme.typography.headlineSmall else MaterialTheme.typography.bodyLarge
                                     )
