@@ -2,9 +2,9 @@
 
 ---
 
-本应用 fork 自 https://github.com/shareven/parcel ，当前为 SPU/海大场景维护分支。
+本应用 fork 自 https://github.com/shareven/parcel ，当前为海大场景维护分支。
 
-添加了一些在 SPU 快递站使用中更方便的小功能。
+添加了一些在海大快递站使用中更方便的小功能。
 
 这是一个基于原开源项目二次维护的海大版分支，当前主要面向上海海事大学快递站场景做优化。
 
