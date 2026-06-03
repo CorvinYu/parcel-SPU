@@ -1,4 +1,4 @@
-# 📦 取件码海大版 | Pickup Code Haida Edition
+# 📦 取件码海大版 | Pickup Code SMU Edition
 
 ---
 
